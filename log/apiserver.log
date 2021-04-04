@@ -1,0 +1,39 @@
+{"level":"INFO","timestamp":"2021-04-03 21:18:11.543","file":"zklighting-backend/main.go:51","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-03 21:18:12.045","file":"zklighting-backend/main.go:49","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-03 22:55:49.231","file":"config/config.go:71","msg":"Config file changed: E:\\Go\\src\\zklighting-backend\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-04-03 22:55:49.232","file":"config/config.go:71","msg":"Config file changed: E:\\Go\\src\\zklighting-backend\\conf\\config.yaml"}
+{"level":"ERROR","timestamp":"2021-04-04 00:00:59.465","file":"model/init.go:30","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"sql: unknown driver \"mysql\" (forgotten import?)"}}
+{"level":"ERROR","timestamp":"2021-04-04 00:19:54.247","file":"model/init.go:38","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'lock=Local' at line 1"}}
+{"level":"ERROR","timestamp":"2021-04-04 00:19:56.271","file":"model/init.go:38","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}}
+{"level":"INFO","timestamp":"2021-04-04 00:19:56.272","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 00:19:56.773","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"ERROR","timestamp":"2021-04-04 00:20:50.843","file":"model/init.go:38","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'lock=Local' at line 1"}}
+{"level":"INFO","timestamp":"2021-04-04 00:20:57.679","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset-utf8\u0026parseTime=true\u0026lock=Local"}
+{"level":"ERROR","timestamp":"2021-04-04 00:20:57.700","file":"model/init.go:40","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'lock=Local' at line 1"}}
+{"level":"INFO","timestamp":"2021-04-04 00:20:57.700","file":"model/init.go:32","msg":"root:123456@tcp(127.0.0.1)/db_apiserver?charset-utf8\u0026parseTime=true\u0026lock=Local"}
+{"level":"ERROR","timestamp":"2021-04-04 00:20:59.702","file":"model/init.go:40","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}}
+{"level":"INFO","timestamp":"2021-04-04 00:20:59.703","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 00:21:00.205","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 00:21:28.001","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026lock=Local"}
+{"level":"ERROR","timestamp":"2021-04-04 00:21:28.021","file":"model/init.go:40","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'lock=Local' at line 1"}}
+{"level":"INFO","timestamp":"2021-04-04 00:21:28.021","file":"model/init.go:32","msg":"root:123456@tcp(127.0.0.1)/db_apiserver?charset=utf8\u0026parseTime=true\u0026lock=Local"}
+{"level":"ERROR","timestamp":"2021-04-04 00:21:30.024","file":"model/init.go:40","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}}
+{"level":"INFO","timestamp":"2021-04-04 00:21:30.024","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 00:21:30.026","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 00:22:23.809","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 00:22:23.835","file":"model/init.go:32","msg":"root:123456@tcp(127.0.0.1)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"ERROR","timestamp":"2021-04-04 00:22:25.838","file":"model/init.go:40","msg":"Database connection failed. Database name: db_apiserver","data":{"error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}}
+{"level":"INFO","timestamp":"2021-04-04 00:22:25.838","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 00:22:26.351","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 00:23:02.517","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 00:23:02.538","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 00:23:02.544","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 14:18:34.444","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 14:18:34.465","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 14:18:34.967","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 14:18:50.146","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 14:18:50.175","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 14:18:50.676","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 18:50:56.045","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 18:50:56.153","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 18:50:56.655","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
