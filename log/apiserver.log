@@ -37,3 +37,31 @@
 {"level":"INFO","timestamp":"2021-04-04 18:50:56.045","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
 {"level":"INFO","timestamp":"2021-04-04 18:50:56.153","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
 {"level":"INFO","timestamp":"2021-04-04 18:50:56.655","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 19:29:54.221","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 19:29:54.270","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 19:29:54.271","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 19:35:36.010","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 19:35:36.039","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 19:35:36.540","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 19:36:14.725","file":"user/create.go:24","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-04-04 19:36:14.725","file":"user/create.go:27","msg":"URL key param desc: "}
+{"level":"INFO","timestamp":"2021-04-04 19:36:14.725","file":"user/create.go:30","msg":"Header Content-Type: multipart/form-data; boundary=--------------------------070319804545240218646465"}
+{"level":"DEBUG","timestamp":"2021-04-04 19:36:14.725","file":"user/create.go:32","msg":"username is: [], password is []"}
+{"level":"ERROR","timestamp":"2021-04-04 19:36:14.725","file":"user/create.go:36","msg":"Get an error"}
+{"level":"INFO","timestamp":"2021-04-04 19:52:14.293","file":"user/create.go:24","msg":"URL username: admin2"}
+{"level":"INFO","timestamp":"2021-04-04 19:52:14.293","file":"user/create.go:27","msg":"URL key param desc: test"}
+{"level":"INFO","timestamp":"2021-04-04 19:52:14.293","file":"user/create.go:30","msg":"Header Content-Type: multipart/form-data; boundary=--------------------------874549285232714702044833"}
+{"level":"DEBUG","timestamp":"2021-04-04 19:52:14.293","file":"user/create.go:32","msg":"username is: [], password is []"}
+{"level":"ERROR","timestamp":"2021-04-04 19:52:14.293","file":"user/create.go:36","msg":"Get an error"}
+{"level":"INFO","timestamp":"2021-04-04 23:19:53.479","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 23:19:53.511","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 23:19:54.012","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 23:20:12.442","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 23:20:12.471","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: :8081"}
+{"level":"INFO","timestamp":"2021-04-04 23:20:12.972","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 23:23:34.385","file":"config/config.go:71","msg":"Config file changed: E:\\Go\\src\\zklighting-backend\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-04-04 23:23:34.386","file":"config/config.go:71","msg":"Config file changed: E:\\Go\\src\\zklighting-backend\\conf\\config.yaml"}
+{"level":"INFO","timestamp":"2021-04-04 23:23:36.364","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-04 23:23:36.394","file":"zklighting-backend/main.go:59","msg":"Start to listening the incoming requests on http address: 0.0.0.0:8081"}
+{"level":"INFO","timestamp":"2021-04-04 23:23:36.896","file":"zklighting-backend/main.go:57","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-04 23:27:27.212","file":"user/create.go:16","msg":"User Create function called.","data":{"X-Request-Id":""}}

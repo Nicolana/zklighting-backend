@@ -1,57 +1,51 @@
 package user
 
 import (
-	"fmt"
-
 	. "zklighting-backend/handler"
+	"zklighting-backend/model"
 	"zklighting-backend/pkg/errno"
+	"zklighting-backend/util"
 
 	"github.com/gin-gonic/gin"
 	"github.com/lexkong/log"
+	"github.com/lexkong/log/lager"
 )
 
 // Create creates a new user account
 func Create(c *gin.Context) {
+	log.Info("User Create function called.", lager.Data{"X-Request-Id": util.GetReqID(c)})
 	var r CreateRequest
-	var err error
 	if err := c.Bind(&r); err != nil {
-		// c.JSON(http.StatusOK, gin.H{"error": errno.ErrBind})
 		SendResponse(c, errno.ErrBind, nil)
 		return
 	}
 
-	admin2 := c.Param("username")
-	log.Infof("URL username: %s", admin2)
-
-	desc := c.Query("desc")
-	log.Infof("URL key param desc: %s", desc)
-
-	contentType := c.GetHeader("Content-Type")
-	log.Infof("Header Content-Type: %s", contentType)
-
-	log.Debugf("username is: [%s], password is [%s]", r.Username, r.Password)
-	if r.Username == "" {
-		SendResponse(c, errno.New(errno.ErrUserNotFound, fmt.Errorf("username can not found in db: xx.xx.xx.xx")), nil)
-		// err = errno.New(errno.ErrUserNotFound, fmt.Errorf("username can not found in db: xx.xx.xx.xx")).Add("This is add message.")
-		log.Errorf(err, "Get an error")
+	u := model.UserModel{
+		Username: r.Username,
+		Password: r.Password,
 	}
 
-	// if errno.IsErrUserNotFound(err) {
-	// log.Debug("err type is ErrUserNotFound")
-	// }
+	// Validate the data
+	if err := u.Validate(); err != nil {
+		SendResponse(c, errno.ErrValidation, nil)
+		return
+	}
 
-	if r.Password == "" {
-		SendResponse(c, fmt.Errorf("password is empty"), nil)
-		// err = fmt.Error("password is empty")
+	// Encrypt the user password
+	if err := u.Encrypt(); err != nil {
+		SendResponse(c, errno.ErrEncrypt, nil)
+		return
+	}
+
+	// Insert the user to the database.
+	if err := u.Create(); err != nil {
+		SendResponse(c, errno.ErrDatabase, nil)
+		return
 	}
 
 	rsp := CreateResponse{
 		Username: r.Username,
 	}
-
 	// Show the user infomation
 	SendResponse(c, nil, rsp)
-
-	// code, message := errno.DecodeErr(err)
-	// c.JSON(http.StatusOK, gin.H{"code": code, "message": message})
 }
