@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"zklighting-backend/model"
+	"zklighting-backend/routers/middleware"
 
 	"zklighting-backend/config"
 	"zklighting-backend/routers"
@@ -39,14 +40,15 @@ func main() {
 	g := gin.New()
 
 	// gin middleware
-	middlewares := []gin.HandlerFunc{}
+	// middlewares := []gin.HandlerFunc{}
 
 	// Routes.
 	routers.Load(
 		// Cores
 		g,
 		// Middlewares
-		middlewares...,
+		middleware.RequestId(),
+		middleware.Logging(),
 	)
 
 	// Ping the server to make sure the router is working.
