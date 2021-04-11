@@ -84,3 +84,73 @@
 {"level":"INFO","timestamp":"2021-04-05 22:21:29.722","file":"middleware/logging.go:84","msg":"1.6935ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2021-04-05 22:21:30.278","file":"middleware/logging.go:84","msg":"1.6227ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
 {"level":"INFO","timestamp":"2021-04-05 22:21:30.673","file":"middleware/logging.go:84","msg":"1.5012ms      | 127.0.0.1    | GET /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2021-04-08 12:17:03.679","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:12:41.498","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:12:41.547","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:8081"}
+{"level":"INFO","timestamp":"2021-04-10 15:12:41.616","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:42.621","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:43.623","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:44.626","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:45.631","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:46.635","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:47.663","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:48.669","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:49.674","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:12:50.675","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:20.444","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:37:20.472","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:8081"}
+{"level":"INFO","timestamp":"2021-04-10 15:37:20.481","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:21.485","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:22.487","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:23.492","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:24.500","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:25.529","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:26.532","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:27.535","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:37:28.539","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:33.623","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:38:33.644","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:8081"}
+{"level":"INFO","timestamp":"2021-04-10 15:38:33.647","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:34.650","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:35.653","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:36.664","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:37.779","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:38.782","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:39.784","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:40.786","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:41.788","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"INFO","timestamp":"2021-04-10 15:38:42.791","file":"zklighting-backend/main.go:91","msg":"Waiting for the router, retry in 1 second."}
+{"level":"FATAL","timestamp":"2021-04-10 15:38:43.792","file":"zklighting-backend/main.go:73","msg":"The router has no response, or it might took too long to start up.","data":{"error":"Cannot connect to the router.","trace":"goroutine 53 [running]:\ngithub.com/lexkong/log/lager.(*logger).logs(0xc000086cc0, 0xc00008e5a0, 0x2, 0x2, 0x4, 0x10d5bd5, 0x42, 0x11ae500, 0xc0004849b0, 0x0, ...)\n\tE:/Go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:135 +0x936\ngithub.com/lexkong/log/lager.(*logger).log(0xc000086cc0, 0x4, 0x10d5bd5, 0x42, 0x11ae500, 0xc0004849b0, 0x0, 0x0, 0x0)\n\tE:/Go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:123 +0xe5\ngithub.com/lexkong/log/lager.(*logger).Fatal(0xc000086cc0, 0x10d5bd5, 0x42, 0x11ae500, 0xc0004849b0, 0x0, 0x0, 0x0)\n\tE:/Go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/lager/logger.go:197 +0x8a\ngithub.com/lexkong/log.Fatal(...)\n\tE:/Go/pkg/mod/github.com/lexkong/log@v0.0.0-20180607165131-972f9cd951fc/st_lager.go:162\nmain.main.func1()\n\tE:/Go/src/zklighting-backend/main.go:73 +0xce\ncreated by main.main\n\tE:/Go/src/zklighting-backend/main.go:71 +0x4a7\n"}}
+{"level":"INFO","timestamp":"2021-04-10 15:39:16.342","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:39:16.366","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 15:39:16.868","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 15:44:59.970","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 15:44:59.999","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 15:45:00.501","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:01:20.742","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:01:20.770","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:01:21.271","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:04:36.421","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:04:36.442","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:04:36.943","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:06:45.345","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:06:45.367","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:06:45.869","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:08:08.464","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:08:08.485","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:08:08.986","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:08:48.172","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:08:48.193","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:08:48.694","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:12:36.092","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:12:36.120","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:12:36.621","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:13:08.445","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:13:08.473","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:13:08.975","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:14:05.964","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:14:05.991","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:14:06.492","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}
+{"level":"INFO","timestamp":"2021-04-10 16:18:16.345","file":"model/init.go:32","msg":"root:123456@tcp(192.168.3.76:3306)/db_apiserver?charset=utf8\u0026parseTime=true\u0026loc=Local"}
+{"level":"INFO","timestamp":"2021-04-10 16:18:16.373","file":"zklighting-backend/main.go:77","msg":"Start to listening the incoming requests on http address: 0.0.0.0:1381"}
+{"level":"INFO","timestamp":"2021-04-10 16:18:16.875","file":"zklighting-backend/main.go:75","msg":"The router has been deployed successfully."}

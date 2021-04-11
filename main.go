@@ -1,11 +1,15 @@
 package main
 
 import (
+	"encoding/json"
 	"errors"
+	"fmt"
 	"net/http"
+	"os"
 	"time"
 
 	"zklighting-backend/model"
+	v "zklighting-backend/pkg/version"
 	"zklighting-backend/routers/middleware"
 
 	"zklighting-backend/config"
@@ -19,10 +23,22 @@ import (
 
 var (
 	cfg = pflag.StringP("config", "c", "", "apiserver config file path.")
+	version = pflag.BoolP("version", "v", false, "show version info")
 )
 
 func main() {
 	pflag.Parse()
+	if *version {
+		v := v.Get()
+		marshalled, err := json.MarshalIndent(&v, "", " ")
+		if err != nil {
+			fmt.Printf("%v\n", err)
+			os.Exit(1)
+		}
+
+		fmt.Println(string(marshalled))
+		return
+	}
 
 	// init config
 	if err := config.Init(*cfg); err != nil {
